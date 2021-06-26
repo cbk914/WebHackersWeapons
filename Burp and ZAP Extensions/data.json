@@ -14,6 +14,22 @@
   "Method": "SCAN",
   "Type": "Burp"
  },
+ "BurpCustomizer": {
+  "Data": "| Burp/THEME | [BurpCustomizer](https://github.com/CoreyD97/BurpCustomizer) | Because just a dark theme wasn't enough! | ![](https://img.shields.io/github/stars/CoreyD97/BurpCustomizer) | ![](https://img.shields.io/github/languages/top/CoreyD97/BurpCustomizer) |",
+  "Description": "Because just a dark theme wasn't enough!",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "THEME",
+  "Type": "Burp",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "BurpJSLinkFinder": {
   "Data": "| Burp/PASV | [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) | Burp Extension for a passive scanning JS files for endpoint links. | ![](https://img.shields.io/github/stars/InitRoot/BurpJSLinkFinder) | ![](https://img.shields.io/github/languages/top/InitRoot/BurpJSLinkFinder) |",
   "Method": "PASV",
@@ -114,10 +130,26 @@
   "Method": "GQL",
   "Type": "Burp"
  },
+ "knife": {
+  "Type": "Burp",
+  "Data": "| Burp/UTIL | [knife](https://github.com/bit4woo/knife) | A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅 | ![](https://img.shields.io/github/stars/bit4woo/knife) | ![](https://img.shields.io/github/languages/top/bit4woo/knife) |",
+  "Method": "UTIL",
+  "Description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "owasp-zap-jwt-addon": {
-  "Type": "ZAP",
   "Data": "| ZAP/JWT | [owasp-zap-jwt-addon](https://github.com/SasanLabs/owasp-zap-jwt-addon) | OWASP ZAP addon for finding vulnerabilities in JWT Implementations | ![](https://img.shields.io/github/stars/SasanLabs/owasp-zap-jwt-addon) | ![](https://img.shields.io/github/languages/top/SasanLabs/owasp-zap-jwt-addon) |",
-  "Method": "JWT"
+  "Method": "JWT",
+  "Type": "ZAP"
  },
  "param-miner": {
   "Data": "| Burp/ACTIVE | [param-miner](https://github.com/PortSwigger/param-miner) | Parameter mining on Burpsuite | ![](https://img.shields.io/github/stars/PortSwigger/param-miner) | ![](https://img.shields.io/github/languages/top/PortSwigger/param-miner) |",

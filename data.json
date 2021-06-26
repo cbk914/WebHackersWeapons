@@ -1,4 +1,20 @@
 {
+ "3klCon": {
+  "Data": "| Discovery/ALL | [3klCon](https://github.com/eslam3kl/3klCon) | Automation Recon tool which works with Large \u0026 Medium scopes. It performs more than 20 tasks and gets back all the results in separated files. | ![](https://img.shields.io/github/stars/eslam3kl/3klCon) | ![](https://img.shields.io/github/languages/top/eslam3kl/3klCon) |",
+  "Description": "Automation Recon tool which works with Large \u0026 Medium scopes. It performs more than 20 tasks and gets back all the results in separated files.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "ALL",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "AWSBucketDump": {
   "Data": "| Scanner/S3 | [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) | Security Tool to Look For Interesting Files in S3 Buckets | ![](https://img.shields.io/github/stars/jordanpotti/AWSBucketDump) | ![](https://img.shields.io/github/languages/top/jordanpotti/AWSBucketDump) |",
   "Description": "Security Tool to Look For Interesting Files in S3 Buckets",
@@ -45,22 +61,6 @@
    "Linux": "cd Arjun; git pull -v ",
    "MacOS": "cd Arjun; git pull -v ",
    "Windows": "cd Arjun; git pull -v "
-  }
- },
- "Aron": {
-  "Data": "| Discovery/HTTP | [Aron](https://github.com/m4ll0k/Aron) | Aron is a GO script for finding hidden GET \u0026 POST parameters | ![](https://img.shields.io/github/stars/m4ll0k/Aron) | ![](https://img.shields.io/github/languages/top/m4ll0k/Aron) |",
-  "Description": "Aron is a GO script for finding hidden GET \u0026 POST parameters ",
-  "Install": {
-   "Linux": "go get -u github.com/m4ll0k/Aron",
-   "MacOS": "go get -u github.com/m4ll0k/Aron",
-   "Windows": "go get -u github.com/m4ll0k/Aron"
-  },
-  "Method": "HTTP",
-  "Type": "Discovery",
-  "Update": {
-   "Linux": "go get -u github.com/m4ll0k/Aron",
-   "MacOS": "go get -u github.com/m4ll0k/Aron",
-   "Windows": "go get -u github.com/m4ll0k/Aron"
   }
  },
  "Assetnote Wordlists": {
@@ -264,6 +264,38 @@
    "Windows": ""
   },
   "Method": "DNS",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "DSSS": {
+  "Data": "| Scanner/SQLi | [DSSS](https://github.com/stamparm/DSSS) | Damn Small SQLi Scanner | ![](https://img.shields.io/github/stars/stamparm/DSSS) | ![](https://img.shields.io/github/languages/top/stamparm/DSSS) |",
+  "Description": "Damn Small SQLi Scanner",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SQLi",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "DirDar": {
+  "Data": "| Discovery/FUZZ | [DirDar](https://github.com/M4DM0e/DirDar) | DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it | ![](https://img.shields.io/github/stars/M4DM0e/DirDar) | ![](https://img.shields.io/github/languages/top/M4DM0e/DirDar) |",
+  "Description": "DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "FUZZ",
   "Type": "Discovery",
   "Update": {
    "Linux": "",
@@ -560,7 +592,7 @@
   }
  },
  "Photon": {
-  "Data": "| Discovery/CRAWL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |",
+  "Data": "| Discovery/URL | [Photon](https://github.com/s0md3v/Photon) | Incredibly fast crawler designed for OSINT. | ![](https://img.shields.io/github/stars/s0md3v/Photon) | ![](https://img.shields.io/github/languages/top/s0md3v/Photon) |",
   "Description": "Incredibly fast crawler designed for OSINT. ",
   "Install": {
    "Linux": "git clone https://github.com/s0md3v/Photon ; cd Photon; pip3 install -r requirements.txt",
@@ -815,6 +847,22 @@
    "Windows": "cd Sublist3r ; git pull -v ; pip3 instal -r requirements.txt"
   }
  },
+ "Taipan": {
+  "Data": "| Scanner/WVS | [Taipan](https://github.com/enkomio/Taipan) | Web application vulnerability scanner | ![](https://img.shields.io/github/stars/enkomio/Taipan) | ![](https://img.shields.io/github/languages/top/enkomio/Taipan) |",
+  "Description": "Web application vulnerability scanner",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "WVS",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "TukTuk": {
   "Data": "| Utility/CALLBACK | [TukTuk](https://github.com/ArturSS7/TukTuk) | Tool for catching and logging different types of requests. | ![](https://img.shields.io/github/stars/ArturSS7/TukTuk) | ![](https://img.shields.io/github/languages/top/ArturSS7/TukTuk) |",
   "Description": "Tool for catching and logging different types of requests. ",
@@ -845,6 +893,22 @@
    "Linux": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt",
    "MacOS": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt",
    "Windows": "cd VHostScan ; git pull -v ; pip3 install -r requirements.txt"
+  }
+ },
+ "XSRFProbe": {
+  "Data": "| Scanner/CSRF | [XSRFProbe](https://github.com/0xInfection/XSRFProbe) | The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit. | ![](https://img.shields.io/github/stars/0xInfection/XSRFProbe) | ![](https://img.shields.io/github/languages/top/0xInfection/XSRFProbe) |",
+  "Description": "The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "CSRF",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "XSStrike": {
@@ -912,14 +976,14 @@
   }
  },
  "anew": {
-  "Data": "| Utility/URL | [anew](https://github.com/tomnomnom/anew) | A tool for adding new lines to files, skipping duplicates | ![](https://img.shields.io/github/stars/tomnomnom/anew) | ![](https://img.shields.io/github/languages/top/tomnomnom/anew) |",
-  "Description": "A tool for adding new lines to files, skipping duplicates ",
+  "Data": "| Utility/ANY | [anew](https://github.com/tomnomnom/anew) | A tool for adding new lines to files, skipping duplicates | ![](https://img.shields.io/github/stars/tomnomnom/anew) | ![](https://img.shields.io/github/languages/top/tomnomnom/anew) |",
+  "Description": "A tool for adding new lines to files, skipping duplicates",
   "Install": {
    "Linux": "go get -u github.com/tomnomnom/anew",
    "MacOS": "go get -u github.com/tomnomnom/anew",
    "Windows": "go get -u github.com/tomnomnom/anew"
   },
-  "Method": "URL",
+  "Method": "ANY",
   "Type": "Utility",
   "Update": {
    "Linux": "go get -u github.com/tomnomnom/anew",
@@ -991,6 +1055,22 @@
    "Windows": "go get -u github.com/tomnomnom/assetfinder"
   }
  },
+ "autochrome": {
+  "Data": "| Utility/SETUP | [autochrome](https://github.com/nccgroup/autochrome) | This tool downloads, installs, and configures a shiny new copy of Chromium. | ![](https://img.shields.io/github/stars/nccgroup/autochrome) | ![](https://img.shields.io/github/languages/top/nccgroup/autochrome) |",
+  "Description": "This tool downloads, installs, and configures a shiny new copy of Chromium.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SETUP",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "axiom": {
   "Data": "| Utility/PENTEST | [axiom](https://github.com/pry0cc/axiom) | A dynamic infrastructure toolkit for red teamers and bug bounty hunters! | ![](https://img.shields.io/github/stars/pry0cc/axiom) | ![](https://img.shields.io/github/languages/top/pry0cc/axiom) |",
   "Description": "A dynamic infrastructure toolkit for red teamers and bug bounty hunters! ",
@@ -1000,6 +1080,22 @@
    "Windows": ""
   },
   "Method": "PENTEST",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "bat": {
+  "Data": "| Utility/ANY | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | ![](https://img.shields.io/github/stars/sharkdp/bat) | ![](https://img.shields.io/github/languages/top/sharkdp/bat) |",
+  "Description": "A cat(1) clone with wings.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "ANY",
   "Type": "Utility",
   "Update": {
    "Linux": "",
@@ -1071,8 +1167,24 @@
    "Windows": ""
   }
  },
+ "cariddi": {
+  "Type": "Discovery",
+  "Data": "| Discovery/URL | [cariddi](https://github.com/edoardottt/cariddi) | Take a list of domains and scan for endpoints, secrets, api keys, file extensions, tokens and more... | ![](https://img.shields.io/github/stars/edoardottt/cariddi) | ![](https://img.shields.io/github/languages/top/edoardottt/cariddi) |",
+  "Method": "URL",
+  "Description": "Take a list of domains and scan for endpoints, secrets, api keys, file extensions, tokens and more...",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "cc.py": {
-  "Data": "| Discovery/CRAWL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of \"commoncrawl.org\" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |",
+  "Data": "| Discovery/URL | [cc.py](https://github.com/si9int/cc.py) | Extracting URLs of a specific target based on the results of \"commoncrawl.org\" | ![](https://img.shields.io/github/stars/si9int/cc.py) | ![](https://img.shields.io/github/languages/top/si9int/cc.py) |",
   "Description": "Extracting URLs of a specific target based on the results of \"commoncrawl.org\" ",
   "Install": {
    "Linux": "git clone https://github.com/si9int/cc.py",
@@ -1117,6 +1229,22 @@
    "Linux": "GO111MODULE=on go get -u github.com/projectdiscovery/chaos-client/cmd/chaos",
    "MacOS": "GO111MODULE=on go get -u github.com/projectdiscovery/chaos-client/cmd/chaos",
    "Windows": "go get -u github.com/projectdiscovery/chaos-client/cmd/chaos"
+  }
+ },
+ "corsair_scan": {
+  "Data": "| Scanner/CORS | [corsair_scan](https://github.com/Santandersecurityresearch/corsair_scan) | Corsair_scan is a security tool to test Cross-Origin Resource Sharing (CORS). | ![](https://img.shields.io/github/stars/Santandersecurityresearch/corsair_scan) | ![](https://img.shields.io/github/languages/top/Santandersecurityresearch/corsair_scan) |",
+  "Description": "Corsair_scan is a security tool to test Cross-Origin Resource Sharing (CORS).",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "CORS",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "crlfuzz": {
@@ -1181,6 +1309,22 @@
    "Linux": "cd dirsearch ; git pull -v",
    "MacOS": "cd dirsearch ; git pull -v",
    "Windows": "cd dirsearch ; git pull -v"
+  }
+ },
+ "ditto": {
+  "Data": "| Discovery/DOMAIN | [ditto](https://github.com/evilsocket/ditto) | A tool for IDN homograph attacks and detection. | ![](https://img.shields.io/github/stars/evilsocket/ditto) | ![](https://img.shields.io/github/languages/top/evilsocket/ditto) |",
+  "Description": "A tool for IDN homograph attacks and detection.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DOMAIN",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "dnsobserver": {
@@ -1299,15 +1443,15 @@
   "Data": "| Discovery/FUZZ | [feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | ![](https://img.shields.io/github/stars/epi052/feroxbuster) | ![](https://img.shields.io/github/languages/top/epi052/feroxbuster) |",
   "Description": "A fast, simple, recursive content discovery tool written in Rust.",
   "Install": {
-   "Linux": "curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash",
-   "MacOS": "brew tap tgotwig/feroxbuster ; brew install feroxbuster",
-   "Windows": "Invoke-WebRequest https://github.com/epi052/feroxbuster/releases/latest/download/x86_64-windows-feroxbuster.exe.zip -OutFile feroxbuster.zip; Expand-Archive .\u000ceroxbuster.zip; .\u000ceroxbuster\u000ceroxbuster.exe -V"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   },
   "Method": "FUZZ",
   "Type": "Discovery",
   "Update": {
    "Linux": "",
-   "MacOS": "brew upgrade feroxbuster",
+   "MacOS": "",
    "Windows": ""
   }
  },
@@ -1359,15 +1503,31 @@
    "Windows": "cd findomain; wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-windows.exe"
   }
  },
+ "fuzzparam": {
+  "Data": "| Discovery/PARAM | [fuzzparam](https://github.com/0xsapra/fuzzparam) | A fast go based param miner to fuzz possible parameters a URL can have. | ![](https://img.shields.io/github/stars/0xsapra/fuzzparam) | ![](https://img.shields.io/github/languages/top/0xsapra/fuzzparam) |",
+  "Description": "A fast go based param miner to fuzz possible parameters a URL can have.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PARAM",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "fzf": {
-  "Data": "| Utility/FIND | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | ![](https://img.shields.io/github/stars/junegunn/fzf) | ![](https://img.shields.io/github/languages/top/junegunn/fzf) |",
-  "Description": "A command-line fuzzy finder ",
+  "Data": "| Utility/ANY | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | ![](https://img.shields.io/github/stars/junegunn/fzf) | ![](https://img.shields.io/github/languages/top/junegunn/fzf) |",
+  "Description": "A command-line fuzzy finder",
   "Install": {
    "Linux": "git clone --depth 1 https://github.com/junegunn/fzf.git ; cd fzf ; ./install",
    "MacOS": "brew install fzf",
    "Windows": "choco install fzf"
   },
-  "Method": "FIND",
+  "Method": "ANY",
   "Type": "Utility",
   "Update": {
    "Linux": "cd fzf ; git pull -v ; ./install",
@@ -1389,6 +1549,22 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "MacOS": "GO111MODULE=on go get -u -v github.com/lc/gau",
    "Windows": "go get -u -v github.com/lc/gau"
+  }
+ },
+ "gee": {
+  "Data": "| Utility/ANY | [gee](https://github.com/hahwul/gee) | 🏵 Gee is tool of stdin to each files and stdout. It is similar to the tee command, but there are more functions for convenience. In addition, it was written as go | ![](https://img.shields.io/github/stars/hahwul/gee) | ![](https://img.shields.io/github/languages/top/hahwul/gee) |",
+  "Description": "🏵 Gee is tool of stdin to each files and stdout. It is similar to the tee command, but there are more functions for convenience. In addition, it was written as go",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "ANY",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "getJS": {
@@ -1439,6 +1615,38 @@
    "Windows": "cd gitGraber; git pull -v ; pip3 install -r requirements.txt"
   }
  },
+ "github-endpoints": {
+  "Data": "| Discovery/GIT | [github-endpoints](https://github.com/gwen001/github-endpoints) | Find endpoints on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-endpoints) | ![](https://img.shields.io/github/languages/top/gwen001/github-endpoints) |",
+  "Description": "Find endpoints on GitHub.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "GIT",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "github-regexp": {
+  "Data": "| Discovery/GIT | [github-regexp](https://github.com/gwen001/github-regexp) | Basically a regexp over a GitHub search. | ![](https://img.shields.io/github/stars/gwen001/github-regexp) | ![](https://img.shields.io/github/languages/top/gwen001/github-regexp) |",
+  "Description": "Basically a regexp over a GitHub search.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "GIT",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "github-search": {
   "Data": "| Discovery/GIT | [github-search](https://github.com/gwen001/github-search) | Tools to perform basic search on GitHub. | ![](https://img.shields.io/github/stars/gwen001/github-search) | ![](https://img.shields.io/github/languages/top/gwen001/github-search) |",
   "Description": "Tools to perform basic search on GitHub. ",
@@ -1455,20 +1663,52 @@
    "Windows": "cd github-search ; git pull -v"
   }
  },
- "gitleaks": {
-  "Data": "| Discovery/GIT | [gitleaks](https://github.com/zricethezav/gitleaks) | Scan git repos for secrets using regex and entropy 🔑 | ![](https://img.shields.io/github/stars/zricethezav/gitleaks) | ![](https://img.shields.io/github/languages/top/zricethezav/gitleaks) |",
-  "Description": "Scan git repos for secrets using regex and entropy 🔑 ",
+ "github-subdomains": {
+  "Data": "| Discovery/GIT | [github-subdomains](https://github.com/gwen001/github-subdomains) | Find subdomains on GitHub | ![](https://img.shields.io/github/stars/gwen001/github-subdomains) | ![](https://img.shields.io/github/languages/top/gwen001/github-subdomains) |",
+  "Description": "Find subdomains on GitHub",
   "Install": {
-   "Linux": "GO111MODULE=on go get github.com/zricethezav/gitleaks/v6",
-   "MacOS": "brew install gitleaks",
-   "Windows": "go get github.com/zricethezav/gitleaks/v6"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   },
   "Method": "GIT",
   "Type": "Discovery",
   "Update": {
-   "Linux": "GO111MODULE=on go get github.com/zricethezav/gitleaks/v6",
-   "MacOS": "brew upgrade gitleaks",
-   "Windows": "go get github.com/zricethezav/gitleaks/v6"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "gitleaks": {
+  "Data": "| Discovery/GIT | [gitleaks](https://github.com/zricethezav/gitleaks) | Scan git repos (or files) for secrets using regex and entropy 🔑 | ![](https://img.shields.io/github/stars/zricethezav/gitleaks) | ![](https://img.shields.io/github/languages/top/zricethezav/gitleaks) |",
+  "Description": "Scan git repos (or files) for secrets using regex and entropy 🔑",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "GIT",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "gitls": {
+  "Data": "| Utility/GIT | [gitls](https://github.com/hahwul/gitls) | Listing git repository from URL/User/Org | ![](https://img.shields.io/github/stars/hahwul/gitls) | ![](https://img.shields.io/github/languages/top/hahwul/gitls) |",
+  "Description": "Listing git repository from URL/User/Org",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "GIT",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "gitrob": {
@@ -1488,7 +1728,7 @@
   }
  },
  "go-dork": {
-  "Data": "| Discovery/CRAWL | [go-dork](https://github.com/dwisiswant0/go-dork) | The fastest dork scanner written in Go. | ![](https://img.shields.io/github/stars/dwisiswant0/go-dork) | ![](https://img.shields.io/github/languages/top/dwisiswant0/go-dork) |",
+  "Data": "| Discovery/URL | [go-dork](https://github.com/dwisiswant0/go-dork) | The fastest dork scanner written in Go. | ![](https://img.shields.io/github/stars/dwisiswant0/go-dork) | ![](https://img.shields.io/github/languages/top/dwisiswant0/go-dork) |",
   "Description": "The fastest dork scanner written in Go. ",
   "Install": {
    "Linux": "GO111MODULE=on go get -v github.com/dwisiswant0/go-dork/...",
@@ -1520,7 +1760,7 @@
   }
  },
  "gospider": {
-  "Data": "| Discovery/CRAWL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |",
+  "Data": "| Discovery/URL | [gospider](https://github.com/jaeles-project/gospider) | Gospider - Fast web spider written in Go | ![](https://img.shields.io/github/stars/jaeles-project/gospider) | ![](https://img.shields.io/github/languages/top/jaeles-project/gospider) |",
   "Description": "Gospider - Fast web spider written in Go ",
   "Install": {
    "Linux": "go get -u github.com/jaeles-project/gospider",
@@ -1565,6 +1805,22 @@
    "Linux": "cd graphql-voyager ; git pull -v",
    "MacOS": "cd graphql-voyager ; git pull -v",
    "Windows": "cd graphql-voyager ; git pull -v"
+  }
+ },
+ "grc": {
+  "Data": "| Utility/ANY | [grc](https://github.com/garabik/grc) | generic colouriser | ![](https://img.shields.io/github/stars/garabik/grc) | ![](https://img.shields.io/github/languages/top/garabik/grc) |",
+  "Description": "generic colouriser",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "ANY",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "gron": {
@@ -1615,8 +1871,24 @@
    "Windows": "cd hacks ; git pull -v"
   }
  },
+ "hakcheckurl": {
+  "Data": "| Utility/URL | [hakcheckurl](https://github.com/hakluke/hakcheckurl) | Takes a list of URLs and returns their HTTP response codes | ![](https://img.shields.io/github/stars/hakluke/hakcheckurl) | ![](https://img.shields.io/github/languages/top/hakluke/hakcheckurl) |",
+  "Description": "Takes a list of URLs and returns their HTTP response codes",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "URL",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "hakrawler": {
-  "Data": "| Discovery/CRAWL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
+  "Data": "| Discovery/URL | [hakrawler](https://github.com/hakluke/hakrawler) | Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application | ![](https://img.shields.io/github/stars/hakluke/hakrawler) | ![](https://img.shields.io/github/languages/top/hakluke/hakrawler) |",
   "Description": "Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application ",
   "Install": {
    "Linux": "go get github.com/hakluke/hakrawler",
@@ -1647,6 +1919,22 @@
    "Windows": "go get github.com/hakluke/hakrevdns"
   }
  },
+ "haktrails": {
+  "Data": "| Discovery/DNS | [haktrails](https://github.com/hakluke/haktrails) | Golang client for querying SecurityTrails API data | ![](https://img.shields.io/github/stars/hakluke/haktrails) | ![](https://img.shields.io/github/languages/top/hakluke/haktrails) |",
+  "Description": "Golang client for querying SecurityTrails API data",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "hashcat": {
   "Data": "| Utility/CRACK | [hashcat](https://github.com/hashcat/hashcat/) | World's fastest and most advanced password recovery utility | ![](https://img.shields.io/github/stars/hashcat/hashcat/) | ![](https://img.shields.io/github/languages/top/hashcat/hashcat/) |",
   "Description": "World's fastest and most advanced password recovery utility ",
@@ -1657,6 +1945,22 @@
   },
   "Method": "CRACK",
   "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "headi": {
+  "Data": "| Discovery/HTTP | [headi](https://github.com/mlcsec/headi) | Customisable  and automated HTTP header injection | ![](https://img.shields.io/github/stars/mlcsec/headi) | ![](https://img.shields.io/github/languages/top/mlcsec/headi) |",
+  "Description": "Customisable  and automated HTTP header injection",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "HTTP",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1744,15 +2048,15 @@
   }
  },
  "httptoolkit": {
-  "Type": "Army-Knife",
   "Data": "| Army-Knife/PROXY | [httptoolkit](https://github.com/httptoolkit/httptoolkit) | HTTP Toolkit is a beautiful \u0026 open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux \u0026 Mac | ![](https://img.shields.io/github/stars/httptoolkit/httptoolkit) | ![](https://img.shields.io/github/languages/top/httptoolkit/httptoolkit) |",
-  "Method": "PROXY",
   "Description": "HTTP Toolkit is a beautiful \u0026 open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux \u0026 Mac",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PROXY",
+  "Type": "Army-Knife",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -1791,6 +2095,22 @@
    "Windows": "cd inql ; git pull -v ; pip3 install -r requirements.txt ; python setup.py install"
   }
  },
+ "interactsh": {
+  "Data": "| Utility/CALLBACK | [interactsh](https://github.com/projectdiscovery/interactsh) | An OOB interaction gathering server and client library | ![](https://img.shields.io/github/stars/projectdiscovery/interactsh) | ![](https://img.shields.io/github/languages/top/projectdiscovery/interactsh) |",
+  "Description": "An OOB interaction gathering server and client library",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "CALLBACK",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "intrigue-core": {
   "Data": "| Discovery/ALL | [intrigue-core](https://github.com/intrigueio/intrigue-core) | Discover Your Attack Surface | ![](https://img.shields.io/github/stars/intrigueio/intrigue-core) | ![](https://img.shields.io/github/languages/top/intrigueio/intrigue-core) |",
   "Description": "Discover Your Attack Surface ",
@@ -1821,6 +2141,22 @@
    "Linux": "GO111MODULE=on go get github.com/jaeles-project/jaeles",
    "MacOS": "GO111MODULE=on go get github.com/jaeles-project/jaeles",
    "Windows": "go get github.com/jaeles-project/jaeles"
+  }
+ },
+ "jsprime": {
+  "Data": "| Scanner/JS | [jsprime](https://github.com/dpnishant/jsprime) | a javascript static security analysis tool | ![](https://img.shields.io/github/stars/dpnishant/jsprime) | ![](https://img.shields.io/github/languages/top/dpnishant/jsprime) |",
+  "Description": "a javascript static security analysis tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "JS",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "jwt-cracker": {
@@ -2080,14 +2416,14 @@
   }
  },
  "pet": {
-  "Data": "| Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
-  "Description": "Simple command-line snippet manager, written in Go. ",
+  "Data": "| Utility/ANY | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
+  "Description": "Simple command-line snippet manager, written in Go.",
   "Install": {
    "Linux": "git clone https://github.com/knqyf263/pet.git ; cd pet ; make install",
    "MacOS": "brew install knqyf263/pet/pet",
    "Windows": ""
   },
-  "Method": "SNIPPET",
+  "Method": "ANY",
   "Type": "Utility",
   "Update": {
    "Linux": "cd pet ; git pull -v ; make install",
@@ -2121,6 +2457,22 @@
   },
   "Method": "PROXY",
   "Type": "Army-Knife",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "puredns": {
+  "Data": "| Discovery/DNS | [puredns](https://github.com/d3mondev/puredns) | Puredns is a fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries. | ![](https://img.shields.io/github/stars/d3mondev/puredns) | ![](https://img.shields.io/github/languages/top/d3mondev/puredns) |",
+  "Description": "Puredns is a fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2207,6 +2559,22 @@
    "Windows": "cd rengine ; git pull -v ; make build"
   }
  },
+ "rusolver": {
+  "Data": "| Discovery/DNS | [rusolver](https://github.com/Edu4rdSHL/rusolver) | Fast and accurate DNS resolver. | ![](https://img.shields.io/github/stars/Edu4rdSHL/rusolver) | ![](https://img.shields.io/github/languages/top/Edu4rdSHL/rusolver) |",
+  "Description": "Fast and accurate DNS resolver.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "s3reverse": {
   "Data": "| Utility/S3 | [s3reverse](https://github.com/hahwul/s3reverse) | The format of various s3 buckets is convert in one format. for bugbounty and security testing. | ![](https://img.shields.io/github/stars/hahwul/s3reverse) | ![](https://img.shields.io/github/languages/top/hahwul/s3reverse) |",
   "Description": "The format of various s3 buckets is convert in one format. for bugbounty and security testing. ",
@@ -2280,6 +2648,22 @@
    "Windows": ""
   },
   "Method": "ALL",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "spiderfoot": {
+  "Data": "| Discovery/OSINT | [spiderfoot](https://github.com/smicallef/spiderfoot) | SpiderFoot automates OSINT collection so that you can focus on analysis. | ![](https://img.shields.io/github/stars/smicallef/spiderfoot) | ![](https://img.shields.io/github/languages/top/smicallef/spiderfoot) |",
+  "Description": "SpiderFoot automates OSINT collection so that you can focus on analysis.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "OSINT",
   "Type": "Discovery",
   "Update": {
    "Linux": "",
@@ -2447,6 +2831,22 @@
    "Windows": "cd thc-hydra; git pull -v ; ./configure ; make ; make install"
   }
  },
+ "tiscripts": {
+  "Data": "| Utility/Scripts | [tiscripts](https://github.com/defparam/tiscripts) | Turbo Intruder Scripts | ![](https://img.shields.io/github/stars/defparam/tiscripts) | ![](https://img.shields.io/github/languages/top/defparam/tiscripts) |",
+  "Description": "Turbo Intruder Scripts",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "Scripts",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "unfurl": {
   "Data": "| Utility/URL | [unfurl](https://github.com/tomnomnom/unfurl) | Pull out bits of URLs provided on stdin | ![](https://img.shields.io/github/stars/tomnomnom/unfurl) | ![](https://img.shields.io/github/languages/top/tomnomnom/unfurl) |",
   "Description": "Pull out bits of URLs provided on stdin ",
@@ -2464,7 +2864,7 @@
   }
  },
  "urlgrab": {
-  "Data": "| Discovery/CRAWL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |",
+  "Data": "| Discovery/URL | [urlgrab](https://github.com/IAmStoxe/urlgrab) | A golang utility to spider through a website searching for additional links. | ![](https://img.shields.io/github/stars/IAmStoxe/urlgrab) | ![](https://img.shields.io/github/languages/top/IAmStoxe/urlgrab) |",
   "Description": "A golang utility to spider through a website searching for additional links. ",
   "Install": {
    "Linux": "go get -u github.com/iamstoxe/urlgrab",
@@ -2477,6 +2877,22 @@
    "Linux": "go get -u github.com/iamstoxe/urlgrab",
    "MacOS": "go get -u github.com/iamstoxe/urlgrab",
    "Windows": "go get -u github.com/iamstoxe/urlgrab"
+  }
+ },
+ "urlhunter": {
+  "Data": "| Discovery/URL | [urlhunter](https://github.com/utkusen/urlhunter) | a recon tool that allows searching on URLs that are exposed via shortener services | ![](https://img.shields.io/github/stars/utkusen/urlhunter) | ![](https://img.shields.io/github/languages/top/utkusen/urlhunter) |",
+  "Description": "a recon tool that allows searching on URLs that are exposed via shortener services",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "URL",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "urlprobe": {
@@ -2528,19 +2944,19 @@
   }
  },
  "websocket-connection-smuggler": {
-  "Data": "| Fetch/WSOCK | [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) |",
-  "Description": "websocket-connection-smuggler ",
+  "Data": "| Scanner/SMUGGLE | [websocket-connection-smuggler](https://github.com/hahwul/websocket-connection-smuggler) | websocket-connection-smuggler | ![](https://img.shields.io/github/stars/hahwul/websocket-connection-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/websocket-connection-smuggler) |",
+  "Description": "websocket-connection-smuggler",
   "Install": {
-   "Linux": "go get -u hahwul/websocket-connection-smuggler",
-   "MacOS": "go get -u hahwul/websocket-connection-smuggler",
-   "Windows": "go get -u hahwul/websocket-connection-smuggler"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   },
-  "Method": "WSOCK",
-  "Type": "Fetch",
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
   "Update": {
-   "Linux": "go get -u hahwul/websocket-connection-smuggler",
-   "MacOS": "go get -u hahwul/websocket-connection-smuggler",
-   "Windows": "go get -u hahwul/websocket-connection-smuggler"
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "wfuzz": {
@@ -2557,6 +2973,22 @@
    "Linux": "pip3 install wfuzz",
    "MacOS": "pip3 install wfuzz",
    "Windows": "pip3 install wfuzz"
+  }
+ },
+ "wprecon": {
+  "Data": "| Scanner/WP | [wprecon](https://github.com/blackcrw/wprecon) | Hello! Welcome. Wprecon (Wordpress Recon), is a vulnerability recognition tool in CMS Wordpress, 100% developed in Go. | ![](https://img.shields.io/github/stars/blackcrw/wprecon) | ![](https://img.shields.io/github/languages/top/blackcrw/wprecon) |",
+  "Description": "Hello! Welcome. Wprecon (Wordpress Recon), is a vulnerability recognition tool in CMS Wordpress, 100% developed in Go.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "WP",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "wpscan": {
@@ -2605,6 +3037,22 @@
    "Linux": "cd xss-cheatsheet-data ; git pull -v",
    "MacOS": "cd xss-cheatsheet-data ; git pull -v",
    "Windows": "cd xss-cheatsheet-data ; git pull -v"
+  }
+ },
+ "xsscrapy": {
+  "Data": "| Scanner/XSS | [xsscrapy](https://github.com/DanMcInerney/xsscrapy) |  XSS/SQLi spider. Give it a URL and it'll test every link it finds for XSS and some SQLi. | ![](https://img.shields.io/github/stars/DanMcInerney/xsscrapy) | ![](https://img.shields.io/github/languages/top/DanMcInerney/xsscrapy) |",
+  "Description": "XSS/SQLi spider. Give it a URL and it'll test every link it finds for XSS and some SQLi. ",
+  "Install": {
+   "Linux": "git clone https://github.com/DanMcInerney/xsscrapy.git ; cd xsscrapy; pip install -r requirements.txt",
+   "MacOS": "git clone https://github.com/DanMcInerney/xsscrapy.git ; cd xsscrapy; pip install -r requirements.txt",
+   "Windows": "git clone https://github.com/DanMcInerney/xsscrapy.git ; cd xsscrapy; pip install -r requirements.txt"
+  },
+  "Method": "XSS",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "cd xsscrapy; git pull -v ; pip install -r requirements.txt",
+   "MacOS": "cd xsscrapy; git pull -v ; pip install -r requirements.txt",
+   "Windows": "cd xsscrapy; git pull -v ; pip install -r requirements.txt"
   }
  },
  "xsser": {
