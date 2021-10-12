@@ -431,6 +431,22 @@
    "Windows": "cd GraphQLmap; git pull -v ; pip install -r requirements.txt"
   }
  },
+ "HRS": {
+  "Data": "| Scanner/SMUGGLE | [HRS](https://github.com/SafeBreach-Labs/HRS) | HTTP Request Smuggling demonstration Perl script, for variants 1, 2 and 5 in my BlackHat US 2020 paper HTTP Request Smuggling in 2020. | ![](https://img.shields.io/github/stars/SafeBreach-Labs/HRS) | ![](https://img.shields.io/github/languages/top/SafeBreach-Labs/HRS) |",
+  "Description": "HTTP Request Smuggling demonstration Perl script, for variants 1, 2 and 5 in my BlackHat US 2020 paper HTTP Request Smuggling in 2020.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "HydraRecon": {
   "Data": "| Discovery/ALL | [HydraRecon](https://github.com/aufzayed/HydraRecon) | All In One, Fast, Easy Recon Tool | ![](https://img.shields.io/github/stars/aufzayed/HydraRecon) | ![](https://img.shields.io/github/languages/top/aufzayed/HydraRecon) |",
   "Description": "All In One, Fast, Easy Recon Tool",
@@ -1823,6 +1839,22 @@
    "Windows": "go get -u github.com/jaeles-project/gospider"
   }
  },
+ "gotator": {
+  "Data": "| Utility/WORDLIST | [gotator](https://github.com/Josue87/gotator) | Gotator is a tool to generate DNS wordlists through permutations. | ![](https://img.shields.io/github/stars/Josue87/gotator) | ![](https://img.shields.io/github/languages/top/Josue87/gotator) |",
+  "Description": "Gotator is a tool to generate DNS wordlists through permutations.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "WORDLIST",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "gowitness": {
   "Data": "| Utility/SHOT | [gowitness](https://github.com/sensepost/gowitness) | 🔍 gowitness - a golang, web screenshot utility using Chrome Headless | ![](https://img.shields.io/github/stars/sensepost/gowitness) | ![](https://img.shields.io/github/languages/top/sensepost/gowitness) |",
   "Description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless ",
@@ -1871,6 +1903,22 @@
    "Windows": ""
   }
  },
+ "grex": {
+  "Data": "| Utility/URL | [grex](https://github.com/pemistahl/grex) | A command-line tool and library for generating regular expressions from user-provided test cases | ![](https://img.shields.io/github/stars/pemistahl/grex) | ![](https://img.shields.io/github/languages/top/pemistahl/grex) |",
+  "Description": "A command-line tool and library for generating regular expressions from user-provided test cases",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "URL",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "gron": {
   "Data": "| Utility/JSON | [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) |",
   "Description": "Make JSON greppable! ",
@@ -1888,8 +1936,8 @@
   }
  },
  "h2csmuggler": {
-  "Data": "| Scanner/SMUGGLE | [h2csmuggler](https://github.com/BishopFox/h2csmuggler) | HTTP Request Smuggling over HTTP/2 Cleartext (h2c) | ![](https://img.shields.io/github/stars/BishopFox/h2csmuggler) | ![](https://img.shields.io/github/languages/top/BishopFox/h2csmuggler) |",
-  "Description": "HTTP Request Smuggling over HTTP/2 Cleartext (h2c) ",
+  "Data": "| Scanner/SMUGGLE | [h2csmuggler](https://github.com/assetnote/h2csmuggler) | HTTP Request Smuggling Detection Tool | ![](https://img.shields.io/github/stars/assetnote/h2csmuggler) | ![](https://img.shields.io/github/languages/top/assetnote/h2csmuggler) |",
+  "Description": "HTTP Request Smuggling Detection Tool",
   "Install": {
    "Linux": "git clone https://github.com/BishopFox/h2csmuggler; cd h2csmuggler; pip3 install h2",
    "MacOS": "git clone https://github.com/BishopFox/h2csmuggler; cd h2csmuggler; pip3 install h2",
@@ -2063,6 +2111,54 @@
    "Windows": "go get github.com/htcat/htcat/cmd/htcat"
   }
  },
+ "http-request-smuggler": {
+  "Data": "| Scanner/SMUGGLE | [http-request-smuggler](https://github.com/PortSwigger/http-request-smuggler) | This extension should not be confused with Burp Suite HTTP Smuggler, which uses similar techniques but is focused exclusively bypassing WAFs. | ![](https://img.shields.io/github/stars/PortSwigger/http-request-smuggler) | ![](https://img.shields.io/github/languages/top/PortSwigger/http-request-smuggler) |",
+  "Description": "This extension should not be confused with Burp Suite HTTP Smuggler, which uses similar techniques but is focused exclusively bypassing WAFs.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "http-request-smuggling": {
+  "Data": "| Scanner/SMUGGLE | [http-request-smuggling](https://github.com/anshumanpattnaik/http-request-smuggling) | HTTP Request Smuggling Detection Tool | ![](https://img.shields.io/github/stars/anshumanpattnaik/http-request-smuggling) | ![](https://img.shields.io/github/languages/top/anshumanpattnaik/http-request-smuggling) |",
+  "Description": "HTTP Request Smuggling Detection Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "http2smugl": {
+  "Data": "| Scanner/SMUGGLE | [http2smugl](https://github.com/neex/http2smugl) | This tool helps to detect and exploit HTTP request smuggling in cases it can be achieved via HTTP/2 -\u003e HTTP/1.1 conversion by the frontend server. | ![](https://img.shields.io/github/stars/neex/http2smugl) | ![](https://img.shields.io/github/languages/top/neex/http2smugl) |",
+  "Description": "This tool helps to detect and exploit HTTP request smuggling in cases it can be achieved via HTTP/2 -\u003e HTTP/1.1 conversion by the frontend server.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "httpie": {
   "Data": "| Utility/HTTP | [httpie](https://github.com/httpie/httpie) | As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins \u0026 more. https://twitter.com/httpie | ![](https://img.shields.io/github/stars/httpie/httpie) | ![](https://img.shields.io/github/languages/top/httpie/httpie) |",
   "Description": "As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins \u0026 more. https://twitter.com/httpie",
@@ -2192,15 +2288,15 @@
   }
  },
  "jsfuck": {
-  "Type": "Utility",
   "Data": "| Utility/PAYLOAD | [jsfuck](https://github.com/aemkei/jsfuck) | Write any JavaScript with 6 Characters | ![](https://img.shields.io/github/stars/aemkei/jsfuck) | ![](https://img.shields.io/github/languages/top/aemkei/jsfuck) |",
-  "Method": "PAYLOAD",
   "Description": "Write any JavaScript with 6 Characters",
   "Install": {
    "Linux": "",
    "MacOS": "",
    "Windows": ""
   },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -2253,6 +2349,22 @@
    "Linux": "go get -u github.com/hahwul/jwt-hack",
    "MacOS": "go get -u github.com/hahwul/jwt-hack",
    "Windows": "go get -u github.com/hahwul/jwt-hack"
+  }
+ },
+ "kiterunner": {
+  "Type": "Discovery",
+  "Data": "| Discovery/API | [kiterunner](https://github.com/assetnote/kiterunner) | Contextual Content Discovery Tool | ![](https://img.shields.io/github/stars/assetnote/kiterunner) | ![](https://img.shields.io/github/languages/top/assetnote/kiterunner) |",
+  "Method": "API",
+  "Description": "Contextual Content Discovery Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "knock": {
@@ -2703,6 +2815,22 @@
    "Windows": "go get-u github.com/edoardottt/scilla"
   }
  },
+ "security-research-pocs": {
+  "Data": "| Utility/PAYLOAD | [security-research-pocs](https://github.com/google/security-research-pocs) | Proof-of-concept codes created as part of security research done by Google Security Team. | ![](https://img.shields.io/github/stars/google/security-research-pocs) | ![](https://img.shields.io/github/languages/top/google/security-research-pocs) |",
+  "Description": "Proof-of-concept codes created as part of security research done by Google Security Team.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "PAYLOAD",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "shuffledns": {
   "Data": "| Discovery/DNS | [shuffledns](https://github.com/projectdiscovery/shuffledns) | shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. | ![](https://img.shields.io/github/stars/projectdiscovery/shuffledns) | ![](https://img.shields.io/github/languages/top/projectdiscovery/shuffledns) |",
   "Description": "shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support. ",
@@ -2717,6 +2845,22 @@
    "Linux": "GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns",
    "MacOS": "GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns",
    "Windows": "go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns"
+  }
+ },
+ "singularity": {
+  "Data": "| ToolBox/DNS Rebind | [singularity](https://github.com/nccgroup/singularity) | A DNS rebinding attack framework. | ![](https://img.shields.io/github/stars/nccgroup/singularity) | ![](https://img.shields.io/github/languages/top/nccgroup/singularity) |",
+  "Description": "A DNS rebinding attack framework.",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "DNS Rebind",
+  "Type": "ToolBox",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "slackcat": {
@@ -2895,6 +3039,22 @@
    "Windows": "cd subs_all; git pull -v"
   }
  },
+ "subzy": {
+  "Data": "| Discovery/TKOV | [subzy](https://github.com/LukaSikic/subzy) | Subdomain takeover vulnerability checker | ![](https://img.shields.io/github/stars/LukaSikic/subzy) | ![](https://img.shields.io/github/languages/top/LukaSikic/subzy) |",
+  "Description": "Subdomain takeover vulnerability checker",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "TKOV",
+  "Type": "Discovery",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
  "template-generator": {
   "Data": "| Utility/TEMPLATE | [template-generator](https://github.com/fransr/template-generator) | A simple variable based template editor using handlebarjs+strapdownjs. The idea is to use variables in markdown based files to easily replace the variables with content. Data is saved temporarily in local storage. PHP is only needed to generate the list of files in the dropdown of templates. | ![](https://img.shields.io/github/stars/fransr/template-generator) | ![](https://img.shields.io/github/languages/top/fransr/template-generator) |",
   "Description": "A simple variable based template editor using handlebarjs+strapdownjs. The idea is to use variables in markdown based files to easily replace the variables with content. Data is saved temporarily in local storage. PHP is only needed to generate the list of files in the dropdown of templates. ",
@@ -2953,6 +3113,22 @@
   },
   "Method": "Scripts",
   "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  }
+ },
+ "tplmap": {
+  "Data": "| Scanner/SSTI | [tplmap](https://github.com/epinna/tplmap) | Server-Side Template Injection and Code Injection Detection and Exploitation Tool | ![](https://img.shields.io/github/stars/epinna/tplmap) | ![](https://img.shields.io/github/languages/top/epinna/tplmap) |",
+  "Description": "Server-Side Template Injection and Code Injection Detection and Exploitation Tool",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SSTI",
+  "Type": "Scanner",
   "Update": {
    "Linux": "",
    "MacOS": "",
@@ -3021,6 +3197,22 @@
    "Linux": "go get -u github.com/1ndianl33t/urlprobe",
    "MacOS": "go get -u github.com/1ndianl33t/urlprobe",
    "Windows": "go get -u github.com/1ndianl33t/urlprobe"
+  }
+ },
+ "uro": {
+  "Data": "| Utility/URL | [uro](https://github.com/s0md3v/uro) | declutters url lists for crawling/pentesting | ![](https://img.shields.io/github/stars/s0md3v/uro) | ![](https://img.shields.io/github/languages/top/s0md3v/uro) |",
+  "Description": "declutters url lists for crawling/pentesting",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "URL",
+  "Type": "Utility",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "waybackurls": {
@@ -3117,6 +3309,22 @@
    "Linux": "gem install wpscan",
    "MacOS": "gem install wpscan",
    "Windows": "gem install wpscan"
+  }
+ },
+ "ws-smuggler": {
+  "Data": "| Scanner/SMUGGLE | [ws-smuggler](https://github.com/hahwul/ws-smuggler) | WebSocket Connection Smuggler | ![](https://img.shields.io/github/stars/hahwul/ws-smuggler) | ![](https://img.shields.io/github/languages/top/hahwul/ws-smuggler) |",
+  "Description": "WebSocket Connection Smuggler",
+  "Install": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
+  },
+  "Method": "SMUGGLE",
+  "Type": "Scanner",
+  "Update": {
+   "Linux": "",
+   "MacOS": "",
+   "Windows": ""
   }
  },
  "wuzz": {
